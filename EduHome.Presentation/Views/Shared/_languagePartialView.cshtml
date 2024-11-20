@@ -1,0 +1,31 @@
+﻿@using EduHome.Presentation.Constants
+@inject ILanguageService _languageService
+@{
+    var languages = await _languageService.GetAllAsync();
+    var selectedLanguage = LanguageConstants.SelectedLanguage;
+}
+
+
+<select class="languageInput">
+    @foreach (var language in languages)
+    {
+        if (selectedLanguage == language.IsoCode)
+        {
+            <option selected value="@language.IsoCode">@language.Name</option>
+        }
+        else
+        {
+
+            <option value="@language.IsoCode">@language.Name</option>
+        }
+    }
+</select>
+
+<script>
+    const languageInput=document.querySelector(".languageInput");
+
+    languageInput.addEventListener('change',async (e)=>{
+        e.preventDefault();
+       await fetch(`/Home/ChangeLanguage?language=${languageInput.value}`)
+    })
+</script>

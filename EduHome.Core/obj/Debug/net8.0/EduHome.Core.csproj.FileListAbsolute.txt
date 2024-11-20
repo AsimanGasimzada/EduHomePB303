@@ -1,0 +1,11 @@
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Core\bin\Debug\net8.0\EduHome.Core.deps.json
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Core\bin\Debug\net8.0\EduHome.Core.dll
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Core\bin\Debug\net8.0\EduHome.Core.pdb
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Core\obj\Debug\net8.0\EduHome.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Core\obj\Debug\net8.0\EduHome.Core.AssemblyInfoInputs.cache
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Core\obj\Debug\net8.0\EduHome.Core.AssemblyInfo.cs
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Core\obj\Debug\net8.0\EduHome.Core.csproj.CoreCompileInputs.cache
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Core\obj\Debug\net8.0\EduHome.Core.dll
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Core\obj\Debug\net8.0\refint\EduHome.Core.dll
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Core\obj\Debug\net8.0\EduHome.Core.pdb
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Core\obj\Debug\net8.0\ref\EduHome.Core.dll

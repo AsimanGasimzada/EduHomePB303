@@ -1,0 +1,17 @@
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Business\bin\Debug\net8.0\EduHome.Business.deps.json
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Business\bin\Debug\net8.0\EduHome.Business.dll
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Business\bin\Debug\net8.0\EduHome.Business.pdb
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Business\bin\Debug\net8.0\EduHome.Core.dll
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Business\bin\Debug\net8.0\EduHome.DataAccess.dll
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Business\bin\Debug\net8.0\EduHome.DataAccess.pdb
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Business\bin\Debug\net8.0\EduHome.Core.pdb
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Business\obj\Debug\net8.0\EduHome.Business.csproj.AssemblyReference.cache
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Business\obj\Debug\net8.0\EduHome.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Business\obj\Debug\net8.0\EduHome.Business.AssemblyInfoInputs.cache
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Business\obj\Debug\net8.0\EduHome.Business.AssemblyInfo.cs
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Business\obj\Debug\net8.0\EduHome.Business.csproj.CoreCompileInputs.cache
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Business\obj\Debug\net8.0\EduHome..F80186D9.Up2Date
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Business\obj\Debug\net8.0\EduHome.Business.dll
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Business\obj\Debug\net8.0\refint\EduHome.Business.dll
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Business\obj\Debug\net8.0\EduHome.Business.pdb
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Business\obj\Debug\net8.0\ref\EduHome.Business.dll
