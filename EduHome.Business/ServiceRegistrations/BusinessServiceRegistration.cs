@@ -18,5 +18,9 @@ public static class BusinessServiceRegistration
     private static void AddServices(IServiceCollection services)
     {
         services.AddScoped<ILanguageService, LanguageService>();
+        services.AddScoped<ICategoryService, CategoryService>();
+        services.AddScoped<ICloudinaryService, CloudinaryService>();
+        services.AddScoped<ICourseService,CourseService>();
+
     }
 }

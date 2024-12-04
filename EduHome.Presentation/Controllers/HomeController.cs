@@ -1,5 +1,5 @@
 ﻿using EduHome.Business.Services.Abstractions;
-using EduHome.Presentation.Constants;
+using EduHome.Presentation.Areas.Admin.Views.Constants;
 using EduHome.Presentation.Extensions;
 using Microsoft.AspNetCore.Mvc;
 

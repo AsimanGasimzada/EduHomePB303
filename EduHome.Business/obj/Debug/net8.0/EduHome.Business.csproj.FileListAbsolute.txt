@@ -15,3 +15,4 @@ C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Business\obj\Debug\net
 C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Business\obj\Debug\net8.0\refint\EduHome.Business.dll
 C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Business\obj\Debug\net8.0\EduHome.Business.pdb
 C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Business\obj\Debug\net8.0\ref\EduHome.Business.dll
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Business\obj\Debug\net8.0\EduHome.Business.sourcelink.json

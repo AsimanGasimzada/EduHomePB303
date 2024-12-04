@@ -42,4 +42,11 @@ internal class LanguageService : ILanguageService
 
         return dto;
     }
+
+    public async Task<bool> IsExistAsync(int id)
+    {
+        var result = await _repository.IsExistAsync(x => x.Id == id);
+
+        return result;
+    }
 }

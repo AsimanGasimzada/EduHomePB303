@@ -27,5 +27,10 @@ public class AppDbContext : DbContext
     public DbSet<Language> Languages { get; set; } = null!;
     public DbSet<Slider> Sliders { get; set; } = null!;
     public DbSet<SliderLanguage> SliderLanguages { get; set; } = null!;
+    public DbSet<Category> Categories { get; set; } = null!;
+    public DbSet<CategoryDetail> CategoryDetails { get; set; } = null!;
+    public DbSet<Course> Courses { get; set; }=null!;
+    public DbSet<CourseDetail> CourseDetails { get; set; } = null!;
+    public DbSet<CourseImage> CourseImages { get; set; } = null!;
 
 }

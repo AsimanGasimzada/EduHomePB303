@@ -129,4 +129,11 @@ internal abstract class Repository<T> : IRepository<T> where T : BaseEntity
     {
         _table.Update(entity);
     }
+
+    public async Task<bool> IsExistAsync(Expression<Func<T, bool>> expression)
+    {
+        var result = await _table.AnyAsync(expression);
+
+        return result;
+    }
 }

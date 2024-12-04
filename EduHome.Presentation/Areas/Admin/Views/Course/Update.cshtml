@@ -1,0 +1,213 @@
+﻿@model CourseUpdateDto
+
+<style>
+    .image-box {
+        position: relative;
+        display: inline-block;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        width: 150px;
+        height: 150px;
+        padding: 15px;
+    }
+
+    .image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .close-button {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        background-color: rgba(255, 0, 0, 0.7); /* Şəffaf qırmızı arxa fon */
+        color: white;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 18px;
+        width: 30px; /* "X" düyməsinin genişliyi */
+        height: 30px; /* "X" düyməsinin hündürlüyü */
+        display: none; /* Başlanğıcda görünməz */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transition: background-color 0.3s; /* Hover zamanı arxa fonun dəyişməsi */
+    }
+
+    .image-box:hover .close-button {
+        display: flex; /* Hover zamanı görünür */
+    }
+
+    .close-button:hover {
+        background-color: rgba(255, 0, 0, 1); /* Hover zamanı arxa fonu tam qırmızıya çevir */
+    }
+</style>
+
+<div class="col-md-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-description">
+                Kategoriya yarat
+            </p>
+            <form method="post" class="forms-sample" enctype="multipart/form-data">
+
+                <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+
+                <div class="form-group">
+
+                    <input asp-for="@Model.CourseDetails[0].LanguageId" value="1" type="hidden" />
+                    <input asp-for="@Model.CourseDetails[0].Id" type="hidden" />
+                    <div class="form-group">
+                        <label for="exampleInputUsername1">Azərbaycanca ad</label>
+                        <input class="form-control categoryName" required asp-for="@Model.CourseDetails[0].Name" placeholder="Ad daxil edin">
+                        <span asp-validation-for="@Model.CourseDetails[0].Name" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputUsername1">Azərbaycanca description</label>
+                        <input class="form-control categoryName" required asp-for="@Model.CourseDetails[0].Description" placeholder="desc daxil edin">
+                        <span asp-validation-for="@Model.CourseDetails[0].Name" class="text-danger"></span>
+                    </div>
+
+
+
+
+                </div>
+
+                <hr />
+                <br />
+                <br />
+
+
+                <div class="form-group">
+
+                    <input asp-for="@Model.CourseDetails[1].LanguageId" value="2" type="hidden" />
+                    <input asp-for="@Model.CourseDetails[1].Id" type="hidden" />
+
+                    <div class="form-group">
+                        <label for="exampleInputUsername1">Ingilisce ad</label>
+                        <input class="form-control categoryName" required asp-for="@Model.CourseDetails[1].Name" placeholder="Ad daxil edin">
+                        <span asp-validation-for="@Model.CourseDetails[1].Name" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputUsername1">Ingilisce description</label>
+                        <input class="form-control categoryName" required asp-for="@Model.CourseDetails[1].Description" placeholder="desc daxil edin">
+                        <span asp-validation-for="@Model.CourseDetails[1].Name" class="text-danger"></span>
+                    </div>
+
+
+
+                </div>
+
+
+
+                <hr />
+                <br />
+                <br />
+
+
+                <div class="form-group">
+
+                    <input asp-for="@Model.CourseDetails[2].LanguageId" value="3" type="hidden" />
+                    <input asp-for="@Model.CourseDetails[2].Id" type="hidden" />
+
+                    <div class="form-group">
+                        <label for="exampleInputUsername1">Rusca ad</label>
+                        <input class="form-control categoryName" required asp-for="@Model.CourseDetails[2].Name" placeholder="Ad daxil edin">
+                        <span asp-validation-for="@Model.CourseDetails[2].Name" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputUsername1">Rusca description</label>
+                        <input class="form-control categoryName" required asp-for="@Model.CourseDetails[2].Description" placeholder="desc daxil edin">
+                        <span asp-validation-for="@Model.CourseDetails[2].Name" class="text-danger"></span>
+                    </div>
+
+
+
+                </div>
+
+
+
+                <div class="form-group">
+                    <img src="@Model.MainImagePath" alt="course" width="50" height="50"/>
+                    <label for="exampleInputUsername1">Main Image</label>
+                    <input class="form-control categoryName"  asp-for="MainImage" placeholder="desc daxil edin">
+                    <span asp-validation-for="MainImage" class="text-danger"></span>
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <img src="@Model.HoverImagePath" alt="course" width="50" height="50" />
+                    <label for="exampleInputUsername1">Hover Image</label>
+                    <input class="form-control categoryName"  asp-for="HoverImage" placeholder="desc daxil edin">
+                    <span asp-validation-for="HoverImage" class="text-danger"></span>
+                </div>
+
+
+                @for (int i = 0; i < Model.ImagePaths?.Count; i++)
+                {
+                    var image = Model.ImagePaths[i];
+
+                    <div class="image-box" id="imageBox">
+                        <input type="hidden" asp-for="ImagePaths" value="@image" />
+                        <input type="hidden" asp-for="ImageIds" value="@Model.ImageIds?[i]" />
+                        <img src="@image" alt="Şəkil" class="image">
+                        <a asp-action="DeleteImage" asp-route-id="@Model.ImageIds?[i]" class="close-button deleteImageBtn">x</a>
+                    </div>
+                }
+                <div class="form-group">
+                    <label for="exampleInputUsername1">Additional Images</label>
+                    <input class="form-control categoryName"  asp-for="Images" placeholder="desc daxil edin">
+                    <span asp-validation-for="Images" class="text-danger"></span>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="exampleInputUsername1">Category</label>
+                 <select asp-for="CategoryId">
+                     <option disabled selected > Category secin</option>
+
+                        @foreach (var category in Model.Categories ?? [])
+                        {
+                                <option value="@category.Id">@category.Name</option>
+                        }
+                 </select>
+                    <span asp-validation-for="CategoryId" class="text-danger"></span>
+                </div>
+
+
+
+
+
+
+                <button type="submit" class="btn btn-primary mr-2">Yarat</button>
+                <a class="btn btn-light" asp-action="Index">Ləğv et</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+    const deleteBttns=document.querySelectorAll('.deleteImageBtn');
+
+    deleteBttns.forEach(btn=>{
+        btn.addEventListener('click',async (e)=>{
+            e.preventDefault();
+
+            await fetch(btn.href);
+            btn.parentElement.remove();
+
+        })
+    })
+</script>

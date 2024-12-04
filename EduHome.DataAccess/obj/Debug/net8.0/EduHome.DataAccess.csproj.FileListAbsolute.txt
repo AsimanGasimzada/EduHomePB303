@@ -13,3 +13,4 @@ C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.DataAccess\obj\Debug\n
 C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.DataAccess\obj\Debug\net8.0\refint\EduHome.DataAccess.dll
 C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.DataAccess\obj\Debug\net8.0\EduHome.DataAccess.pdb
 C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.DataAccess\obj\Debug\net8.0\ref\EduHome.DataAccess.dll
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.DataAccess\obj\Debug\net8.0\EduHome.DataAccess.sourcelink.json

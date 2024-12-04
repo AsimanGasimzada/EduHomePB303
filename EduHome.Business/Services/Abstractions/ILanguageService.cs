@@ -6,4 +6,5 @@ public interface ILanguageService
 {
     Task<List<LanguageGetDto>> GetAllAsync();
     Task<LanguageGetDto> GetAsync(int id);
+    Task<bool> IsExistAsync(int id);
 }

@@ -14,6 +14,7 @@ public interface IRepository<T> where T : BaseEntity
     void Update(T entity);
     void Delete(T entity);
     Task<int> SaveChangesAsync();
+    Task<bool> IsExistAsync(Expression<Func<T, bool>> expression);
 
     IQueryable<T> PaginateQuery(IQueryable<T> query, int limit, int page);
     IQueryable<T> OrderByQuery(IQueryable<T> query, Expression<Func<T, object>> expression);
