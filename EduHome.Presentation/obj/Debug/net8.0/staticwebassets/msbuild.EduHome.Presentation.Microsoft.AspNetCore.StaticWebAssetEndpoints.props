@@ -3984,6 +3984,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zju5g2ksfo"},{"Name":"integrity","Value":"sha256-78GOZXlXuk4Ntc36VcSsYNDTr9QUPgEDvV2truh4qzU="},{"Name":"label","Value":"_content/EduHome.Presentation/css/bootstrap.min.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"122235"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002278GOZXlXuk4Ntc36VcSsYNDTr9QUPgEDvV2truh4qzU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Sep 2020 04:44:22 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EduHome.Presentation/css/chat.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\chat.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xjYkDQVbpCJRSxFSlowC872GbxQTS0CqWudN0b93AZg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"12814"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022xjYkDQVbpCJRSxFSlowC872GbxQTS0CqWudN0b93AZg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Dec 2024 13:02:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EduHome.Presentation/css/chat.y5ny173l3b.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\chat.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"y5ny173l3b"},{"Name":"integrity","Value":"sha256-xjYkDQVbpCJRSxFSlowC872GbxQTS0CqWudN0b93AZg="},{"Name":"label","Value":"_content/EduHome.Presentation/css/chat.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"12814"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022xjYkDQVbpCJRSxFSlowC872GbxQTS0CqWudN0b93AZg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Dec 2024 13:02:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EduHome.Presentation/css/et-line-icon.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\et-line-icon.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -5352,6 +5364,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9z\u002Be6iEX/Wt7LEoTmRqVp83xDE82P8sbHUzavUibSH4="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"37330"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00229z\u002Be6iEX/Wt7LEoTmRqVp83xDE82P8sbHUzavUibSH4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Sep 2020 04:44:20 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EduHome.Presentation/js/chat.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chat.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MVhH22cO7xWkYknhY0JhCblU5S\u002B5JdNHzeBOcsLcmus="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"511"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022MVhH22cO7xWkYknhY0JhCblU5S\u002B5JdNHzeBOcsLcmus=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Dec 2024 22:19:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EduHome.Presentation/js/chat.zn787iizek.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chat.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zn787iizek"},{"Name":"integrity","Value":"sha256-MVhH22cO7xWkYknhY0JhCblU5S\u002B5JdNHzeBOcsLcmus="},{"Name":"label","Value":"_content/EduHome.Presentation/js/chat.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"511"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022MVhH22cO7xWkYknhY0JhCblU5S\u002B5JdNHzeBOcsLcmus=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Dec 2024 22:19:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EduHome.Presentation/js/jquery.magnific-popup.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\jquery.magnific-popup.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -5411,6 +5435,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vam338wxbu"},{"Name":"integrity","Value":"sha256-p9bP2bD9EgNvfk5qhlbbuFT6T/ri6mSKtOpHRLuak0s="},{"Name":"label","Value":"_content/EduHome.Presentation/js/main.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3132"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022p9bP2bD9EgNvfk5qhlbbuFT6T/ri6mSKtOpHRLuak0s=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Sep 2020 04:44:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EduHome.Presentation/js/message.3r8b2a0bt1.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\message.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3r8b2a0bt1"},{"Name":"integrity","Value":"sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="},{"Name":"label","Value":"_content/EduHome.Presentation/js/message.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00228ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Dec 2024 15:15:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EduHome.Presentation/js/message.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\message.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00228ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Dec 2024 15:15:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EduHome.Presentation/js/owl.carousel.min.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\owl.carousel.min.js'))</AssetFile>

@@ -10,3 +10,4 @@ C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Core\obj\Debug\net8.0\
 C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Core\obj\Debug\net8.0\EduHome.Core.pdb
 C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Core\obj\Debug\net8.0\ref\EduHome.Core.dll
 C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Core\obj\Debug\net8.0\EduHome.Core.sourcelink.json
+C:\Users\Asiman\source\repos\EduHome.Presentation\EduHome.Core\obj\Debug\net8.0\EduHome.Core.csproj.AssemblyReference.cache

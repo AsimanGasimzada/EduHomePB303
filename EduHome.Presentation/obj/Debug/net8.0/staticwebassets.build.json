@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KG+T/7l5nVyjjZHVTtTHwgKdzHEkqjR5WoCSXanqKyA=",
+  "Hash": "JWEAu9QUhC8Uzxnk0QeWGGHsv9JdqwGAFI9Vyjf0F8c=",
   "Source": "EduHome.Presentation",
   "BasePath": "_content/EduHome.Presentation",
   "Mode": "Default",
@@ -7031,6 +7031,27 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
+      "Identity": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\css\\chat.css",
+      "SourceId": "EduHome.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\",
+      "BasePath": "_content/EduHome.Presentation",
+      "RelativePath": "css/chat#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y5ny173l3b",
+      "Integrity": "xjYkDQVbpCJRSxFSlowC872GbxQTS0CqWudN0b93AZg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\chat.css"
+    },
+    {
       "Identity": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\css\\et-line-icon.css",
       "SourceId": "EduHome.Presentation",
       "SourceType": "Discovered",
@@ -9404,6 +9425,27 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
     },
     {
+      "Identity": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\js\\chat.js",
+      "SourceId": "EduHome.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\",
+      "BasePath": "_content/EduHome.Presentation",
+      "RelativePath": "js/chat#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zn787iizek",
+      "Integrity": "MVhH22cO7xWkYknhY0JhCblU5S+5JdNHzeBOcsLcmus=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\chat.js"
+    },
+    {
       "Identity": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\js\\jquery.magnific-popup.js",
       "SourceId": "EduHome.Presentation",
       "SourceType": "Discovered",
@@ -9507,6 +9549,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\main.js"
+    },
+    {
+      "Identity": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\js\\message.js",
+      "SourceId": "EduHome.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\",
+      "BasePath": "_content/EduHome.Presentation",
+      "RelativePath": "js/message#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3r8b2a0bt1",
+      "Integrity": "8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\message.js"
     },
     {
       "Identity": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\js\\owl.carousel.min.js",
@@ -38016,6 +38079,88 @@
       ]
     },
     {
+      "Route": "css/chat.css",
+      "AssetFile": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\css\\chat.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12814"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xjYkDQVbpCJRSxFSlowC872GbxQTS0CqWudN0b93AZg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 13:02:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xjYkDQVbpCJRSxFSlowC872GbxQTS0CqWudN0b93AZg="
+        }
+      ]
+    },
+    {
+      "Route": "css/chat.y5ny173l3b.css",
+      "AssetFile": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\css\\chat.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12814"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xjYkDQVbpCJRSxFSlowC872GbxQTS0CqWudN0b93AZg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 13:02:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y5ny173l3b"
+        },
+        {
+          "Name": "label",
+          "Value": "css/chat.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xjYkDQVbpCJRSxFSlowC872GbxQTS0CqWudN0b93AZg="
+        }
+      ]
+    },
+    {
       "Route": "css/et-line-icon.css",
       "AssetFile": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\css\\et-line-icon.css",
       "Selectors": [],
@@ -47446,6 +47591,88 @@
       ]
     },
     {
+      "Route": "js/chat.js",
+      "AssetFile": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\js\\chat.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "511"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MVhH22cO7xWkYknhY0JhCblU5S+5JdNHzeBOcsLcmus=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 22:19:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MVhH22cO7xWkYknhY0JhCblU5S+5JdNHzeBOcsLcmus="
+        }
+      ]
+    },
+    {
+      "Route": "js/chat.zn787iizek.js",
+      "AssetFile": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\js\\chat.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "511"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MVhH22cO7xWkYknhY0JhCblU5S+5JdNHzeBOcsLcmus=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 22:19:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zn787iizek"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chat.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MVhH22cO7xWkYknhY0JhCblU5S+5JdNHzeBOcsLcmus="
+        }
+      ]
+    },
+    {
       "Route": "js/jquery.magnific-popup.js",
       "AssetFile": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\js\\jquery.magnific-popup.js",
       "Selectors": [],
@@ -47852,6 +48079,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-p9bP2bD9EgNvfk5qhlbbuFT6T/ri6mSKtOpHRLuak0s="
+        }
+      ]
+    },
+    {
+      "Route": "js/message.3r8b2a0bt1.js",
+      "AssetFile": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\js\\message.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 15:15:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3r8b2a0bt1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/message.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+        }
+      ]
+    },
+    {
+      "Route": "js/message.js",
+      "AssetFile": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\js\\message.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 15:15:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
         }
       ]
     },

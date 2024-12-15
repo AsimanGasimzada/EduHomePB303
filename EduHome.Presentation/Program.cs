@@ -1,13 +1,21 @@
-using EduHome.DataAccess.ServiceRegistrations;
+using EduHome.Business.Hubs;
 using EduHome.Business.ServiceRegistrations;
+using EduHome.DataAccess.ServiceRegistrations;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddSignalR(opt =>
+{
+    opt.EnableDetailedErrors = true;
+});
 
 builder.Services.AddDataAccessServices(builder.Configuration);
 builder.Services.AddBusinessServices();
 
 var app = builder.Build();
+
+//app.UseMiddleware<GlobalExceptionHandler>();
 
 if (!app.Environment.IsDevelopment())
 {
@@ -15,13 +23,16 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+
+app.MapHub<ChatHub>("/chatHub");
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
-
 
 app.MapControllerRoute(
             name: "areas",

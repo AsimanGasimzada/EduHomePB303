@@ -1,4 +1,5 @@
-﻿using EduHome.Business.Services.Abstractions;
+﻿using EduHome.Business.Exceptions;
+using EduHome.Business.Services.Abstractions;
 using EduHome.Presentation.Areas.Admin.Views.Constants;
 using EduHome.Presentation.Extensions;
 using Microsoft.AspNetCore.Mvc;
@@ -28,6 +29,11 @@ public class HomeController : Controller
         LanguageConstants.SelectedLanguage = language;
 
         return Redirect(retunUrl);
+    }
+
+    public IActionResult Error(string message)
+    {
+        return View(model: message);
     }
 
 

@@ -1,4 +1,5 @@
 ﻿using EduHome.DataAccess.Contexts;
+using EduHome.DataAccess.Interceptors;
 using EduHome.DataAccess.Repositories.Abstractions;
 using EduHome.DataAccess.Repositories.Implementations;
 using Microsoft.EntityFrameworkCore;
@@ -15,6 +16,8 @@ public static class DataAccessServiceRegistration
 
         AddRepositories(services);
 
+        services.AddSingleton<BaseAuditableInterceptor>();
+
         return services;
     }
 
@@ -23,7 +26,7 @@ public static class DataAccessServiceRegistration
         services.AddScoped<ILanguageRepository, LanguageRepository>();
         services.AddScoped<ICategoryRepository, CategoryRepository>();
         services.AddScoped<ICourseRepository, CourseRepository>();
-        services.AddScoped<ICourseImageRepository,CourseImageRepository>();
+        services.AddScoped<ICourseImageRepository, CourseImageRepository>();
     }
 
 }

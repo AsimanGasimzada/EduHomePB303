@@ -1,0 +1,104 @@
+﻿@using System.Security.Claims
+@model Chat
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="~/css/chat.css">
+
+</head>
+<body>
+
+
+
+
+    <div class="menu">
+        <a href="#" class="back">
+            <i class="fa fa-angle-left"></i>
+            <img src="https://i.imgur.com/G4EjwqQ.jpg" draggable="false" />
+        </a>
+        <div class="name">@Model.Name</div>
+        <div class="members">@string.Join(",", Model.AppUserChats.Select(x => x.AppUser.UserName))</div>
+    </div>
+    <ol class="chat">
+        @foreach (var message in Model.Messages)
+        {
+            if (message.SenderId == User.FindFirstValue(ClaimTypes.NameIdentifier)!.ToString())
+            {
+                <li class="self">
+                    <div class="msg">
+                        <p>@message.Text</p>
+                        <time>@message.CreatedTime.ToShortTimeString()</time>
+
+                    </div>
+                </li>
+
+            }
+            else
+            {
+                <li class="other">
+                    <div class="msg">
+                        <div class="user">@message.Sender.UserName</div>
+                        <p>@message.Text</p>
+                        <time>@message.CreatedTime.ToShortTimeString()</time>
+                    </div>
+                </li>
+            }
+        }
+
+    </ol>
+    <div class="typezone">
+        <form method="post" class="sendMessageForm" asp-action="SendMessage" asp-route-chatId="@Model.Id">
+            <input class="messageInput" type="text" required name="text" placeholder="Say something" />
+            <button type="submit" class="send"></button>
+        </form>
+    </div>
+
+    <script>
+        const form=document.querySelector(".sendMessageForm");
+        const messageInput=document.querySelector(".messageInput");
+        const chat=document.querySelector(".chat");
+
+        form.addEventListener("submit",async (e)=>{
+            e.preventDefault();
+
+                const response=await fetch(`/Message/SendMessage?chatId=@Model.Id&text=${messageInput.value}`,
+              {
+            headers: {
+              'Accept': 'application/json',
+              'Content-Type': 'application/json'
+            },
+            method: "POST",
+                 })
+
+
+                 const data=await response.json();
+
+                 const li=` <li class="self">
+                    <div class="msg">
+                        <p>${data.text}</p>
+                        <time>${data.createdTime}</time>
+
+                    </div>
+                </li>`
+
+
+                chat.innerHTML+=li;
+
+                messageInput.value="";
+                messageInput.blur();
+        })
+    </script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.7/signalr.min.js"></script>
+    <script src="~/js/chat.js"></script>
+</body>
+</html>

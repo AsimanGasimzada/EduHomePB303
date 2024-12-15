@@ -330,6 +330,7 @@ wwwroot\admin\vendors\ti-icons\fonts\themify.ttf
 wwwroot\admin\vendors\ti-icons\fonts\themify.woff
 wwwroot\css\animate.css
 wwwroot\css\bootstrap.min.css
+wwwroot\css\chat.css
 wwwroot\css\et-line-icon.css
 wwwroot\css\font-awesome.min.css
 wwwroot\css\ionicons.min.css
@@ -443,11 +444,13 @@ wwwroot\img\testimonial\testimonial.jpg
 wwwroot\img\testimonial\testimonial-bg.jpg
 wwwroot\js\ajax-mail.js
 wwwroot\js\bootstrap.min.js
+wwwroot\js\chat.js
 wwwroot\js\jquery.magnific-popup.js
 wwwroot\js\jquery.mb.YTPlayer.js
 wwwroot\js\jquery.meanmenu.js
 wwwroot\js\jquery.nicescroll.min.js
 wwwroot\js\main.js
+wwwroot\js\message.js
 wwwroot\js\owl.carousel.min.js
 wwwroot\js\plugins.js
 wwwroot\js\vendor\jquery-1.12.0.min.js

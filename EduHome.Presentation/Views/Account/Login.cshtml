@@ -1,0 +1,12 @@
+﻿@model LoginDto
+@{
+    Layout = null;
+}
+<form method="post" style="display:flex;flex-direction:column;gap:10px">
+
+
+    <div asp-validation-summary="All"></div>
+    <input asp-for="Email" placeholder="Email" />
+    <input asp-for="Password" placeholder="Password" />
+    <button type="submit"> submit</button>
+</form>

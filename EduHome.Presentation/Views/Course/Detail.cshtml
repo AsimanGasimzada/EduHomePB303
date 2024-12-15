@@ -1,0 +1,132 @@
+﻿@model Course
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h1>@Model.CourseDetails.FirstOrDefault()?.Name</h1>
+<h1>@Model.CourseDetails.FirstOrDefault()?.Description</h1>
+<img width="300" height="300" src="@Model.CourseImages.FirstOrDefault(x=>x.IsMain)?.Path" />
+<h2>
+    Rating:@for (int i = 0; i < Model.Rating; i++)
+    {
+        <span>
+            &#9733
+        </span>
+    }
+</h2>
+
+<ul>
+    @foreach (var comment in Model.Comments)
+    {
+        <li>
+            <p>
+                @comment.AppUser.UserName
+            </p>
+            <br />
+            <span>
+                @comment.Text-@for (int i = 0; i < Model.Rating; i++)
+                {
+                    <span>
+                        &#9733
+                    </span>
+                }
+            </span>
+
+
+
+
+            <br />
+            <span>Replies:</span>
+            <hr />
+            <ul>
+                @foreach (var child in comment.Children)
+                {
+                    <li>
+                        <br />
+                        <p>
+                            CHILD @child.AppUser.UserName
+                        </p>
+                        <span>
+                            @child.Text
+                        </span>
+
+                    </li>
+                }
+            </ul>
+            <hr />
+
+            <form method="post" asp-action="ReplyComment" asp-route-CourseId="@Model.Id" asp-route-ParentId="@comment.Id">
+                <input name="Text" placeholder="Reply" />
+                <button type="submit">submit</button>
+            </form>
+        </li>
+
+        <hr />
+        <br />
+        <br />
+        <br />
+    }
+</ul>
+
+
+<div class="comment-form-container" style="max-width: 80%; margin: 20px auto; border: 1px solid whitesmoke; border-radius: 0; padding: 20px; background-color: #fff; color: #000;">
+    <form id="commentForm" asp-action="PostComment" asp-route-CourseId="@Model.Id">
+        <h4 class="text-center" style="margin-bottom: 20px;">LeaveComment</h4>
+
+        <!-- Comment Text -->
+        <div class="form-group">
+            <label for="commentText" style="font-weight: bold;">YourComment</label>
+            <textarea id="commentText" name="Text" class="form-control" rows="4" style="border: 1px solid #000; border-radius: 0;" placeholder="YourCommentInput" required></textarea>
+        </div>
+
+        <!-- Star Rating -->
+        <div class="form-group">
+            <label for="rating" style="font-weight: bold;">YourRating</label>
+            <div class="rating-stars" style="display: flex; gap: 5px; justify-content: flex-end; direction: rtl;">
+                <input type="radio" id="star5" name="Rating" value="5">
+                <label for="star5" class="star">&#9733;</label>
+                <input type="radio" id="star4" name="Rating" value="4">
+                <label for="star4" class="star">&#9733;</label>
+                <input type="radio" id="star3" name="Rating" value="3">
+                <label for="star3" class="star">&#9733;</label>
+                <input type="radio" id="star2" name="Rating" value="2">
+                <label for="star2" class="star">&#9733;</label>
+                <input type="radio" id="star1" name="Rating" value="1">
+                <label for="star1" class="star">&#9733;</label>
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-dark" style="width: 100%; border-radius: 0; font-weight: bold;">CommentButton</button>
+    </form>
+</div>
+
+<style>
+    .rating-stars input[type="radio"] {
+        display: none;
+    }
+
+    .rating-stars .star {
+        font-size: 25px;
+        color: #ccc;
+        cursor: pointer;
+        transition: color 0.3s ease;
+    }
+
+        .rating-stars .star:hover,
+        .rating-stars .star:hover ~ .star {
+            color: #ffc107;
+        }
+
+    .rating-stars input[type="radio"]:checked ~ label {
+        color: #ffc107;
+    }
+
+    .rating-stars label:hover ~ label {
+        color: #ccc;
+    }
+</style>

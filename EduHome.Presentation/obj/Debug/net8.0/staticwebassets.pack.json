@@ -1333,6 +1333,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
+      "Id": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\css\\chat.css",
+      "PackagePath": "staticwebassets\\css\\chat.css"
+    },
+    {
       "Id": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\css\\et-line-icon.css",
       "PackagePath": "staticwebassets\\css\\et-line-icon.css"
     },
@@ -1785,6 +1789,10 @@
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
+      "Id": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
+    },
+    {
       "Id": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\js\\jquery.magnific-popup.js",
       "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.js"
     },
@@ -1803,6 +1811,10 @@
     {
       "Id": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\js\\message.js",
+      "PackagePath": "staticwebassets\\js\\message.js"
     },
     {
       "Id": "C:\\Users\\Asiman\\source\\repos\\EduHome.Presentation\\EduHome.Presentation\\wwwroot\\js\\owl.carousel.min.js",

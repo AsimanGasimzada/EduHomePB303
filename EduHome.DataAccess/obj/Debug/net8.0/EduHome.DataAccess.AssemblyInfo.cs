@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EduHome.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffa1ae729292f751650cc12c8894ace08595ebbf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10f0b0b38771f7b532aa6c97611e05d928c61034")]
 [assembly: System.Reflection.AssemblyProductAttribute("EduHome.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EduHome.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
